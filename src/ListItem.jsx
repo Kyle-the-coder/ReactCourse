@@ -1,10 +1,10 @@
 const ListItem = ({ children, isComplete }) => {
   return (
     <>
-      <div>
+      <label>
         <input type="checkbox" checked={isComplete} />
         {children}
-      </div>
+      </label>
     </>
   );
 };
