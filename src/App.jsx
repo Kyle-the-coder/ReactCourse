@@ -10,9 +10,7 @@ function App() {
   return (
     <>
       <div className="large" id="largeDiv">
-        <ListItem isComplete="true">
-          <h1>Frozen Pizza</h1>
-        </ListItem>
+        <ListItem isComplete="true">Frozen Pizza</ListItem>
       </div>
     </>
   );
